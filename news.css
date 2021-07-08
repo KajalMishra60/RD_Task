@@ -211,15 +211,16 @@ margin-top: 1%;
       order: 3;
    }
    #subscribe > button{
-      height:110%;
+      height:100%;
       width:20%;
      background-color: #273852;
      color: white;
-     border:none;
+     border:2px #273852;
   }
   #subscribe > input{
    height:100%;
-      width:30%;
+      width:59%;
+      border: 0.5px rgb(202, 185, 185) solid;
   }
   
   /* Articles   */
