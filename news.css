@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px)  { 
+@media only screen and (min-width: 700px)  { 
 *{
     margin: 0px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
@@ -136,7 +136,7 @@ margin-top: 1%;
 }
 
  /*Responsive*/
- @media only screen and (max-width: 400px)  { 
+ @media only screen and (max-width: 700px)  { 
    *{
       margin: 0px auto;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
@@ -210,14 +210,14 @@ margin-top: 1%;
       order: 3;
    }
    #subscribe > button{
-     height: 85%;
+     height: 2rem;
      width: 25%;
      background-color: #273852;
      color: white;
      border:none;
   }
   #subscribe > input{
-  height: 70%;
+  height: 2rem;
   width: 50%;
   }
   
@@ -270,6 +270,8 @@ margin-top: 1%;
       background-color: #273852;
       color:white;
       display: flex;
+      position: fixed;
+      bottom: 0;
       justify-content: center;
       align-items: center;
    }
