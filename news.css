@@ -16,17 +16,17 @@ header{
     align-items: center;
  }
  #head{
-    height: 60%;   
-    width:12% ;
+    height: 30%;   
+    width:max-content ;
     background-color: white;
     display: flex;
+    padding: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid red;
     color: #273852;
-    font-weight: bold;    
-    font-size:13px;
+    font-weight: bold;   
  }
  #head > p{
     font-size: 70%;
@@ -43,6 +43,7 @@ header{
    padding-bottom: 1%;
    margin-left: 1%;
    border-bottom: 2px rgb(185, 185, 185) solid; 
+   justify-content: space-between;
  }
  .upart{
     margin: 1% 0% 0% 0%;
@@ -54,31 +55,34 @@ header{
  }
  .in{
     height:2rem;
-    width:80%;
+    width:130%;
     background-color: white;
     border: 0.5px rgb(202, 185, 185) solid;
  }
  #drop{
     margin-left: 2%;
-    width: 20%; 
+    margin-right: 6rem;
  }
  #title{
-    width: 70%;
     padding-top: 1%;  
-    padding-left: 7%;
     text-align: center;
  }
  #subscribe{    
-    width: 30%; 
+    display: flex;
+    flex-direction: column;
  }
- #subscribe > button{
+ #sub{
+    display: flex;
+    justify-content: center;
+ }
+ #sub > button{
    height: 2rem;
    width:6rem;
    background-color: #273852;
    color: white;
    border:none;
 }
-#subscribe > input{
+#sub > input{
 height: 1.6rem;
 width: 10rem;
 }
@@ -108,7 +112,7 @@ margin-top: 1%;
  }
  .btn{
    height: 2rem;
-   width:18%;
+   width:max-content;
    margin-top: 1%;
    background-color: #d55f44; 
    color: white;
@@ -129,6 +133,8 @@ margin-top: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
  }
  h2,h1,b,h4{
    color:#273852;
@@ -155,7 +161,8 @@ margin-top: 1%;
    }
    #head{
       height: 60%;   
-      width:50% ;
+      width:max-content ;
+      padding: 0rem 1rem 0rem 1rem;
       background-color: white;
       display: flex;
       justify-content: center;
@@ -180,49 +187,53 @@ margin-top: 1%;
      width:100%;
      display: flex; 
      padding-bottom: 5%;
-     margin-left: 1%;
      border-bottom: 2px rgb(185, 185, 185) solid; 
      flex-direction: column;
    }
    .upart{
       margin: 1% 1% 0% 1%;
       height: 50%;  
-      font-weight:bold;
+      font-weight:bold;     
    }
    .in{
-      height:100%;
+      height:80%;
       width:80%;
       background-color: white;
       border: 0.5px rgb(202, 185, 185) solid;
    }
    #drop{
-      width: 100%;
+      width: 80%;
       text-align: center;
-      order: 3;
+      order: 2;
+      margin-bottom: 3%;
+      align-self: center;
    }
    #title{
       width: 100%; 
       text-align: center;
       order: 1;
+
+   }#subscribe{    
+      display: flex;
+      flex-direction: column;
+      order:2;
    }
-   #subscribe{    
-      text-align: center;
-      width: 100%; 
-      order: 3;
+   #sub{
+      display: flex;
+      justify-content: center;
    }
-   #subscribe > button{
-      height:100%;
-      width:20%;
+   #sub > button{
+     width:max-content;
      background-color: #273852;
      color: white;
-     border:2px #273852;
+     border:none;
+     display: inline-block;
   }
-  #subscribe > input{
-   height:100%;
-      width:59%;
-      border: 0.5px rgb(202, 185, 185) solid;
+  #sub > input{
+  height: 1.6rem;
+  display: inline-block;
+  width: max-content;
   }
-  
   /* Articles   */
    .part{
       height: 40%;
