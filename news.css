@@ -210,14 +210,14 @@ margin-top: 1%;
       order: 3;
    }
    #subscribe > button{
-     height: 2rem;
+     height: 80%;
      width: 25%;
      background-color: #273852;
      color: white;
      border:none;
   }
   #subscribe > input{
-  height: 2rem;
+  height:80%;
   width: 50%;
   }
   
