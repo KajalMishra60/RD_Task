@@ -173,7 +173,7 @@ margin-top: 1%;
       display: flex;
       flex-direction: column; 
       min-height:100%;
-      margin-bottom: 2%;
+      margin-bottom: 7%;
    }
    #upper{
      height: 20%;
@@ -211,15 +211,15 @@ margin-top: 1%;
       order: 3;
    }
    #subscribe > button{
-      height:6rem;
+      height:80%;
       width:20%;
      background-color: #273852;
      color: white;
      border:none;
   }
   #subscribe > input{
-   height:2rem;
-      width:75%;
+   height:65%;
+      width:58%;
   }
   
   /* Articles   */
