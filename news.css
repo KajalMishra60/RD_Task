@@ -1,0 +1,279 @@
+@media only screen and (min-width: 400px)  { 
+*{
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+#container{
+    height:auto;
+    width:auto ;    
+}
+header{
+    height: 5rem;
+    width:100% ;
+    background-color: #273852;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #head{
+    height: 60%;   
+    width:12% ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    color: #273852;
+    font-weight: bold;    
+    font-size:13px;
+ }
+ #head > p{
+    font-size: 70%;
+ }
+ #main{
+    display: flex;
+    flex-direction: column; 
+    min-height:100%;
+ }
+ #upper{
+   height: 20%;
+   width:96%;
+   display: flex; 
+   padding-bottom: 1%;
+   margin-left: 1%;
+   border-bottom: 2px rgb(185, 185, 185) solid; 
+ }
+ .upart{
+    margin: 1% 0% 0% 0%;
+    height: 50%;  
+    font-weight:bold;
+ }
+ #detail{
+    display:flex;
+ }
+ .in{
+    height:2rem;
+    width:80%;
+    background-color: white;
+    border: 0.5px rgb(202, 185, 185) solid;
+ }
+ #drop{
+    margin-left: 2%;
+    width: 20%; 
+ }
+ #title{
+    width: 70%;
+    padding-top: 1%;  
+    padding-left: 7%;
+    text-align: center;
+ }
+ #subscribe{    
+    width: 30%; 
+ }
+ #subscribe > button{
+   height: 2rem;
+   width:6rem;
+   background-color: #273852;
+   color: white;
+   border:none;
+}
+#subscribe > input{
+height: 1.6rem;
+width: 10rem;
+}
+
+/* Articles   */
+ .part{
+    height: 40%;
+    width:98%;
+    margin: 1% ;
+    display: flex;
+ }
+ .picture{
+    height: 90%;
+    background-color: rgb(201, 187, 187);
+    width:15%;
+    margin: 0px 2%;
+ }
+ .content{
+    display: flex;
+    width:70%;
+    height: 100%;
+    flex-direction:column ; 
+    font-size: 1rem;
+ }
+ p{
+margin-top: 1%;
+ }
+ .btn{
+   height: 2rem;
+   width:18%;
+   margin-top: 1%;
+   background-color: #d55f44; 
+   color: white;
+   border: 0px;
+  }
+ span{
+    font-weight: bold;
+ }
+ hr{
+    margin:0px 1%;
+    border: 1px whitesmoke solid;
+ }
+ footer{
+    height: 2rem;
+    width:100%;
+    background-color: #273852;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ h2,h1,b,h4{
+   color:#273852;
+ }
+}
+
+ /*Responsive*/
+ @media only screen and (max-width: 400px)  { 
+   *{
+      margin: 0px auto;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+  }
+  #container{
+      height:auto;
+      width:auto ;    
+  }
+  header{
+      height: 5rem;
+      width:100% ;
+      background-color: #273852;;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   #head{
+      height: 60%;   
+      width:50% ;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid red;
+      color: #273852;
+      font-weight: bold;    
+      font-size:10px;
+   }
+ #head > p{
+   font-size: 70%;
+}
+   #main{
+      display: flex;
+      flex-direction: column; 
+      min-height:100%;
+   }
+   #upper{
+     height: 20%;
+     width:100%;
+     display: flex; 
+     padding-bottom: 5%;
+     margin-left: 1%;
+     border-bottom: 2px rgb(185, 185, 185) solid; 
+     flex-direction: column;
+   }
+   .upart{
+      margin: 1% 1% 0% 1%;
+      height: 50%;  
+      font-weight:bold;
+   }
+   .in{
+      height:2rem;
+      width:80%;
+      background-color: white;
+      border: 0.5px rgb(202, 185, 185) solid;
+   }
+   #drop{
+      width: 100%;
+      text-align: center;
+      order: 3;
+   }
+   #title{
+      width: 100%; 
+      text-align: center;
+      order: 1;
+   }
+   #subscribe{    
+      text-align: center;
+      width: 100%; 
+      order: 3;
+   }
+   #subscribe > button{
+     height: 85%;
+     width: 25%;
+     background-color: #273852;
+     color: white;
+     border:none;
+  }
+  #subscribe > input{
+  height: 70%;
+  width: 50%;
+  }
+  
+  /* Articles   */
+   .part{
+      height: 40%;
+      width:98%;
+      margin: 1% ;
+      display: flex;
+      flex-direction: column;
+   }
+   .picture{
+      height: 20%;   
+      width:70%;
+      align-items: center;
+      margin-bottom: 2%;
+   }
+   .content{
+      display: flex;
+      width:90%;
+      height: 100%;
+      flex-direction:column ; 
+      font-size: 1rem;
+      text-align: justify;
+   }
+   
+ #detail{
+   display:flex;
+   flex-direction: column;
+   justify-content:flex-start;
+}
+   .btn{
+     height: 2rem;
+     width:50%;
+     margin-top: 1%;
+     background-color: #d55f44; 
+     color: white;
+     border: 0px;
+    }
+   span{
+      font-weight: bold;
+   }
+   hr{
+      margin:1% 1%;
+      border: 1px whitesmoke solid;
+   }
+   footer{
+      height: 2rem;
+      width:100%;
+      background-color: #273852;
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   h2,h1,b,h4{
+     color:#273852;
+   }
+  }
